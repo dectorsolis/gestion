@@ -1,0 +1,7 @@
+[02-Feb-2019 00:39:37 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'endfor' (T_ENDFOR) in /home/ubuntu/workspace/gestion/app/views/tickets/last_tickets.php on line 3
+[02-Feb-2019 00:39:37 America/Mexico_City] PHP Stack trace:
+[02-Feb-2019 00:39:37 America/Mexico_City] PHP   1. {main}() /home/ubuntu/workspace/gestion/public/index.php:0
+[02-Feb-2019 00:39:37 America/Mexico_City] PHP   2. App->__construct() /home/ubuntu/workspace/gestion/public/index.php:4
+[02-Feb-2019 00:39:37 America/Mexico_City] PHP   3. call_user_func_array:{/home/ubuntu/workspace/gestion/app/core/app.php:53}() /home/ubuntu/workspace/gestion/app/core/app.php:53
+[02-Feb-2019 00:39:37 America/Mexico_City] PHP   4. tickets->get_last_tickets() /home/ubuntu/workspace/gestion/app/core/app.php:53
+[02-Feb-2019 00:39:37 America/Mexico_City] PHP   5. Controller->view_nostyle() /home/ubuntu/workspace/gestion/app/controllers/tickets.php:410
