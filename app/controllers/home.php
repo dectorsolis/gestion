@@ -141,7 +141,7 @@
 							"top" => $ticket->get_top_tickets_resueltos_por_mes()
 						),*/
 						"mi_equipo" => array(
-							"titulo" => "Mi equipo",
+							"titulo" => "My team",
 							"empleados" => $empleado->get_equipo( $id_departamento, $id_region)
 							),
 						"clientes_recientes" => array(
